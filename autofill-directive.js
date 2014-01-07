@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = function(ngModule) {
-	var force
 	ngModule.directive('autofill', function() {
 		return {
 			require: 'ngModel',
