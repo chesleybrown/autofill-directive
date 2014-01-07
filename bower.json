@@ -1,0 +1,10 @@
+{
+	"name": "autofill-directive",
+	"version": "1.0.0",
+	"main": "autofill-directive.js",
+	"ignore": [
+	],
+	"dependencies": {
+		"angular": ">=1.2.0"
+	}
+}
