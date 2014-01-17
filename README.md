@@ -3,11 +3,17 @@ autofill-directive
 
 AngularJS directive that fixes the issue where browsers autofill inputs and they aren't reflective in the model upon submit.
 
-## Install
+Install with Bower:
 
-Use `bower install autofill-directive`
+```
+bower install autofill-directive
+```
 
-Include in your javascript using require such as `require('autofill-directive')(app);`
+Include the directive in your Angular module:
+
+```
+var myApp = angular.module('myApp', ['autofill-directive']);
+```
 
 ## Usage
 
